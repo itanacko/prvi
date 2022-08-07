@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moj prvi sajt</title>
+        <style>
+           h1{
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 10px;
+            color: #ae0e59;
+            border: 1px solid #f466a7;
+            border-radius: 24px;
+           }
+           h2{
+            text-transform: uppercase;
+            text-align: center;
+            color: #f466a7;
+            font-weight: 700;
+            letter-spacing: 5px;
+           }
+           p{
+            text-align: justify;
+            font-size: 18px; /*Ovo je velicina slova 18px*/
+            margin: 18px; /* top right bottom left*/
+            }
+            img{
+                object-fit: cover;
+            }
+            .btn{
+                width: 100%;
+                border: none;
+                border-radius: 25px;
+                padding: 12px;
+                background-color: aquamarine;
+                color: rgb(10, 118, 23);
+                cursor: pointer;
+            }
+            .btn:hover {
+                background-color: #f466a7;
+            }
+        </style>
+        <script>
+            function onButtonClick() {
+                console.log ("Button clicked");
+                alert ('Čestitamo! Osvojili ste Filipa i Milicu na 48h! Uživajte!');
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Filip i Milica</h1>
+        <h2>Moja draga dečica</h2>
+        <p><strong>Filip i Milica</strong> su moja draga deca. Filip ima 8 godina a Milica 5 godina. Filip ce sada u 3. razred osnovne škole a Milica u predškolsko. Oni vole da se kupaju u bazenu i mnogo vole svoju kucu Beti. Omiljeni slatkiš im je sladoled. Vole da pevaju i igraju uz muziku. Mnogo ih volim.</p>
+        <img src="deca.jpg" width="100%" height="360px"/>
+        <p>To read more about locaton of the picture visit <a href="http://www.belacrkvato.org/jezera.html" target="_blank">link</a></p>
+        <button class="btn" onclick="onButtonClick()">Pritisni ako želiš poklon!</button>
+    </body>
+</html>
